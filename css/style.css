@@ -1,24 +1,31 @@
 
 @media (min-width: 1000px) {
-    
-}
-.header {
-    height: 130px;
-    background-color: #99FF44;
-    color: white;
-}
-.header a{
-    color: white;
+		.main-menu{
+		margin-top:80px;
+		margin-left: 30%;
+	}
+	.header {
+		height: 130px;
+		background-color: #99FF44;
+		color: white;
+	}
+	.header a{
+		color: white;
 
+	}
 }
-.main-menu{
-    margin-top:80px;
-    margin-left: 30%;
-}
+
+
+
 
 #mainCarousel{
-    height: 200px;
+    height: 300px;
 }
+#mainCarousel img{
+	width :100%;
+	height:300px;
+}
+
 .footer {
     height: 80px;
     background-color: #99FF44;
