@@ -1,21 +1,102 @@
 
+/* main class*/
+
+.padding15{
+    padding: 15px;
+}
+.padding-top20{
+    padding-top: 20px;
+}
+.padding-top15{
+    padding-top: 15px;
+}
+.padding-top40{
+    padding-top: 40px;
+}
+.padding-tb20{
+     padding: 20px 0;
+ }
+.padding-lr20{
+    padding: 0 20px;
+}
+.padding-tb40{
+      padding:0 40px;
+  }
+
+.title{
+    font-weight: bold;
+    color: #66ff33;
+    font-size:16px ;
+}
+.panel{
+    padding-top:15px;
+}
+
+
+
+
+
 @media (min-width: 1000px) {
+
+
+    header .container{
+        background-image: url("../img/headerbackground.png") ;
+        background-repeat: no-repeat;
+        background-position-x: 100px;
+    }
 		.main-menu{
-		margin-top:80px;
-		margin-left: 30%;
+		margin-top:89px;
+		margin-left: 20%;
+            font-size: 16px;
 	}
+    .main-menu>li>a{
+        padding: 10px 20px;
+    }
+    .main-menu>li>a{
+        padding: 10px 20px;
+        border-radius: 5px;
+    }
+    .main-menu > li > a:hover, .main-menu > li > a:focus ,.main-menu > li.open > a{
+
+        background-color: #339900;
+    }
+    .main-menu .open > a, .main-menu .open > a:hover, .main-menu .open > a:focus {
+        background-color: #339900;
+        border-color: #337ab7;
+    }
+    .main-menu > li > .dropdown-menu
+    {
+        background-color: #339900;
+    }
+
+
+
+
+
 	.header {
 		height: 130px;
-		background-color: #99FF44;
+		background-color: #4be825;
 		color: white;
 	}
 	.header a{
 		color: white;
 
 	}
+
 }
 
 
+.header {
+    background-color: #4be825;
+    color: white;
+}
+
+.navbar-ab button.navbar-toggle{
+    background-color: #3c763d;
+}
+.navbar-ab .navbar-toggle .icon-bar{
+    background-color: #fff;
+}
 
 
 #mainCarousel{
@@ -27,8 +108,11 @@
 }
 
 .footer {
-    height: 80px;
-    background-color: #99FF44;
+    background-color: #0ac41c;
     color: white;
     text-align: left;
+
+}
+.footer-content{
+
 }
