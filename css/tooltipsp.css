@@ -1,0 +1,29 @@
+.tooltipsp{
+	width:350px;
+	border:solid 2px #66ff33;
+	border-radius:10px;
+	
+}
+.tooltipsp .title{	
+	color:#66ff33;
+	
+}
+.tooltipsp .body{
+	border-top:solid 2px #66ff33;
+	padding:3px;
+}
+.tooltipsp .btnMua{
+	float:right;
+}
+.tooltipsp .char{
+	background-color:#aaee33;
+	border:solid 1px #66ff33;
+	border-radius:4px;
+}
+.tooltipsp .ttheader{
+	padding:3px;
+}
+.tooltipsp .count{
+	background-color:#ccb129;	
+	border-radius:4px;	
+}

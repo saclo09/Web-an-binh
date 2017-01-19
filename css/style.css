@@ -33,11 +33,22 @@
 }
 
 .blue-border-top{
-    border-top: 3px solid #419641;
+    border-top: 3px solid #66ff33;
 }
 
+session a{
+    color:#0ac41c;
+}
 
-
+.breadcrumb{
+    margin-bottom: 0px;
+    background-color: transparent;
+}
+.breadcrumb > li + li:before {
+    padding: 0 5px;
+    color: #ccc;
+    content: ">";
+}
 @media (min-width: 1000px) {
 
 
@@ -122,4 +133,44 @@
 }
 .footer-content{
 
+}
+
+/* san phẩm*/
+.sp-item{
+    border: 1px solid #0ac41c;
+    margin: 15px 0 ;
+    position: relative;
+}
+.sp-tile {
+    padding: 5px;
+    text-align: center;
+    color: #0ac41c;
+    border-top: 1px solid #0ac41c;
+}
+.sp-img{
+    width: 100%;
+    height: 120px;
+}
+.tooltip {
+
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.sp-item .sp-tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+}
+
+.sp-item:hover .sp-tooltiptext {
+    visibility: visible;
 }
